@@ -8,8 +8,20 @@
     <h1>Trackgenix SA</h1>
 </head>
 <body>
-<hr><!---titulo principal-->    
-    <h2>Hi, we are Trackgenix!</h2>
+    <header>
+        <a href="#Home">Home
+        </a> 
+        <p>
+            SignUp
+        </p>
+        <p>
+            LogIn
+        </p>
+        <a href="#Contact">Contact
+        </a>
+    </header>
+<!---titulo principal-->    
+    <a id="Home"><h2>Hi, we are Trackgenix!</h2></a>
     <p style="font-size:120%;"><i>
         The best choise for your business
     </i></p>
@@ -19,7 +31,7 @@
         make a type specimen book.
     </p>
     <img src="Images/img-BaSP.png"  alt="Computer whit the clock" style="width:300px;height:400px;">
-<hr><!---funcionalidades-->
+<!---funcionalidades-->
     <h2>Application features</h2>
         <h3>Hours</h3>
         <p>
@@ -37,7 +49,7 @@
         <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>
-<hr><!---razones-->
+<!---razones-->
     <h2>Why choos us</h2>
     <p>
         <strong>Productivity booster</strong>
@@ -51,30 +63,32 @@
     <p>
         <strong>Decision making</strong>
     </p>
-<hr><!---formulario-->
-   <h2>Contact us for information about the system</h2>
+<!---formulario-->
+   <a id="Contact"><h2>Contact us for information about the system</h2></a>
     <form action="/action_page.php">
+        <fieldset>
         <label for="fname">First name:</label>
         <input type="text" id="fname" name="fname">
         <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br/>
+        <input type="text" id="lname" name="lname">
         <label for="email">Enter your email:</label>
-        <input type="email" id="email" name="email"><br/>
-        Contact Area:<br/>
+        <input type="email" id="email" name="email">
+        Contact Area:
         <select name="Area">
         <option>Select
         <option>RRHH
         <option>Systems
         <option>Commercialization
-        </select><br/>
+        </select>
         <textarea name="texto"
 	    rows="10"
 	    cols="50">Text Area
-        </textarea><br/>
+        </textarea>
         <input type="submit" value="Submit">
         <input type="reset">
+        </fieldset>
     </form>
-<hr><!---historia-->
+<!---historia-->
     <h2>Who we are</h2>
     <p>
         RR time tracker is a web platform that help to manage time at work. 
@@ -82,7 +96,7 @@
         We’re providing you with the core UI kit needed to kickstart your design and development while also allowing
         you to add new functionalities to the existing capabilities. 
     </p>
-<hr><!---seccion final-->
+<!---seccion final-->
     <h2>Products</h2>
         <ol>
         <li>Funcionalities.</li>
@@ -105,12 +119,12 @@
         <li>Contact</li>
         </ul>  
 </body>
-<hr><!---footer-->
+<!---footer-->
 <footer>
-    <img src="Images/fcb.png">
-    <img src="Images/insta.png">
-    <img src="Images/twt.jpg">
-    <img src="Images/in.png"><br/>
+    <img src="Images/fcb.png" style="width:20px;height:20px;">
+    <img src="Images/insta.png" style="width:20px;height:20px;">
+    <img src="Images/twt.jpg" style="width:20px;height:20px;">
+    <img src="Images/in.png" style="width:20px;height:20px;">
     <small>Copyright © 2022 Trackgenix S.A. All rigths reserved.</small>
 </footer>
 </html>
