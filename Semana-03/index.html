@@ -1,221 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BaSP 2022</title>  
-  <link rel="stylesheet" type="text/css" href="style.css"/> 
-</head>
-<body>
-	<header class="header">
-		<h2>Trackgenix SA</h2>
-	</header>
-	<div>
-		<img class="rr-logo"  src="Images/logo.png" alt="Logo">
-	</div>
-	<aside>
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BaSP 2022</title>  
+	<link rel="stylesheet" type="text/css" href="./CSS/reset.css"/> 
+	<link rel="stylesheet" type="text/css" href="./CSS/style.css"/> 
+	</head>
+	<body>
+		<header class="header">
+			<h2>Trackgenix SA</h2>
+		</header>
 		<div>
-			<a href="#Home">
-				<img src="Images/home.png" class="icon">
-				Home
-			</a> 
+			<img class="rr-logo"  src="Images/logo.png" alt="Logo">
+		</div>
+		<aside>
+			<div>
+				<a href="#Home">
+					<img src="Images/home.png" class="icon">
+					Home
+				</a> 
+			</div>
+			<div>
+				<a href="">
+					<img src="Images/login signup.png" class="icon">
+					SignUp
+				</a>
+			</div>
+			<div>
+				<a href="">
+					<img src="Images/login signup.png" class="icon">
+					LogIn
+				</a>
+			</div>
+			<div>
+				<a href="#Contact">
+					<img src="Images/contact.png" class="icon">
+					Contact
+				</a>
+			</div>
+		</aside>
+	<section><!---titulo principal-->
+		<div class="hi">   
+			<h1>Hi, we are Trackgenix!</h1>
+		</div>
+		<div id="Home">
+			The best choice for your business
 		</div>
 		<div>
-    		<a href="">
-				<img src="Images/login signup.png" class="icon">
-				SignUp
-			</a>
+			<p class="txt-home">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+				standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+				make a type specimen book.
+			</p>
+			<img src="Images/img-BaSP.png"  alt="Computer whit the clock" class="img-computer">
+		</div>
+	</section>
+		<div class="linea"></div>
+	<!---funcionalidades-->
+	<section>
+		<h2 class="title">Application features</h2>
+			<div class="funcionalities">
+				<h3>Hours</h3>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+			</div>
+			<div class="funcionalities">
+				<h3>Reports</h3>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+			</div>
+			<div class="funcionalities">
+				<h3>Resources Management</h3>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+			</div>
+			<div class="funcionalities">
+				<h3>Multiple Roles</h3>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+			</div>
+	</section>
+		<div class="linea"></div>
+	<section><!---razones-->
+		<h2 class="title">Why choos us</h2>
+			<div class="wcu">
+				<h3>
+					Productivity booster
+				</h3>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+				<img src="Images/icon-Productivity-booster.png" class="img-why">
+			</div>
+			<div class="wcu">
+				<h3>
+					Work traceability
+				</h3>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+				<img src="Images/icon-work-traceability.png" class="img-why">
+			</div>
+			<div class="wcu">
+				<h3>
+					Leandership and team management
+				</h3>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+				<img src="Images/icon-leadership.png" class="img-why">
+			</div>
+			<div class="wcu">
+				<h3>
+					Decision making
+				</h3>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+				<img src="Images/icon-decision-making.png" class="img-why">
+			</div>
+	</section>
+		<div class="linea"></div>
+	<section class="form"><!---formulario-->
+	<h2 class="title" id="Contact">Contact us for information about the system</h2>
+	<form action="/action_page.php">
+		<div>
+			<label for="fname">First name:</label>
+			<input class="name" type="text" name="fname" placeholder="Juan">
+		</div>	
+		<div>	
+			<label for="lname">Last name:</label>
+			<input class="name" type="text" name="lname" placeholder="Perez">
+		
+		<div>
+			<label for="email">Enter your email:</label>
+			<input class="mail" type="email" name="email" placeholder="example@email.com">
 		</div>
 		<div>
-    		<a href="">
-				<img src="Images/login signup.png" class="icon">
-				LogIn
-			</a>
+			Contact Area:
+			<select class="select-area" name="Area">
+			<option>Select
+			<option>RRHH
+			<option>Systems
+			<option>Commercialization
+			</select>
 		</div>
 		<div>
-    		<a href="#Contact">
-				<img src="Images/contact.png" class="icon">
-				Contact
-			</a>
+			<textarea name="texto"
+			rows="10"
+			cols="50">Text Area
+			</textarea>
 		</div>
-	</aside>
-<section><!---titulo principal-->
-	<div class="hi">   
-		<h1>Hi, we are Trackgenix!</h1>
-	</div>
-	<div>
-		<a id="Home"> The best choice for your business</a>
-	</div>
-	<div>
-		<p class="txt-home">
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-			standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-			make a type specimen book.
+			<input class="button" type="submit" value="Submit">
+			<input class="button1" type="reset" value="Reset">
+	</form>
+	</section>
+		<div class="linea"></div>
+	<section class="who-we-are"><!---historia-->
+		<h2>Who we are</h2>
+		<p>
+			RR time tracker is a web platform that help to manage time at work. 
+			What type of application do you have in mind?
+			We’re providing you with the core UI kit needed to kickstart your design and development while also allowing
+			you to add new functionalities to the existing capabilities. 
 		</p>
-		<img src="Images/img-BaSP.png"  alt="Computer whit the clock" class="img-computer">
-	</div>
-</section>
-	<div class="linea"></div>
-<!---funcionalidades-->
-<section>
-	<h2>Application features</h2>
-		<div class="funcionalities">
-  			<h3>Hours</h3>
-  				<p>
-    				Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  				</p>
+	</section>
+		<div class="linea"></div>
+	<section><!---seccion final-->
+		<div class="final">
+			<h2 class="pcs">Products</h2>
+				<ol>
+					<li>Funcionalities.</li>
+					<li>Downloads.</li>
+					<li>Integrations.</li>
+					<li>Additionals features.</li>
+				</ol>
 		</div>
-		<div class="funcionalities">
-  			<h3>Reports</h3>
-  				<p>
-    				Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  				</p>
-  		</div>
-		<div class="funcionalities">
-			<h3>Resources Management</h3>
-  				<p>
-  					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  				</p>
-  		</div>
-		<div class="funcionalities">
-			<h3>Multiple Roles</h3>
-  				<p>
-    				Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  				</p>
+		<div class="final">
+			<h2 class="pcs">Company</h2>
+				<ol>
+					<li>About us.</li>
+					<li>Clients.</li>
+					<li>Resources.</li>
+					<li>Blog.</li>
+				</ol>
 		</div>
-</section>
-	<div class="linea"></div>
-<section><!---razones-->
-	<h2>Why choos us</h2>
-		<div class="wcu">
-			<h3>
-				Productivity booster
-			</h3>
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				</p>
-			<img src="Images/icon-Productivity-booster.png" class="img-why">
+		<div class="final">
+			<h2 class="pcs">Support</h2>
+				<ul>
+					<li>Help.</li>
+					<li>Tutorials.</li>
+					<li>API.</li>
+					<li>Contact</li>
+				</ul> 
+		</div> 
+	</section>
+		<div class="linea"></div>
+	<!---footer-->
+	<footer>
+		<div>
+			<a href="https://www.facebook.com/radiumrocket">
+				<img src="Images/fcb.png" alt="Facebook" class="icon">
+			</a>
+			<a href="https://www.instagram.com/radium.rocket/">
+				<img src="Images/insta.png" alt="Instagram" class="icon">
+			</a>
+			<a href="https://twitter.com/radiumrocket">
+			<img src="Images/twt.jpg" alt="Twitter" class="icon">
+			</a>
+			<a href="https://www.linkedin.com/company/radium-rocket/">
+				<img src="Images/in.png" alt="Linkedin" class="icon">
+			</a>
 		</div>
-		<div class="wcu">
-			<h3>
-				Work traceability
-			</h3>
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				</p>
-			<img src="Images/icon-work-traceability.png" class="img-why">
-		</div>
-		<div class="wcu">
-  			<h3>
-				Leandership and team management
-			</h3>
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				</p>
-			<img src="Images/icon-leadership.png" class="img-why">
-		</div>
-		<div class="wcu">
-  			<h3>
-				Decision making
-			</h3>
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				</p>
-			<img src="Images/icon-decision-making.png" class="img-why">
-		</div>
-</section>
-	<div class="linea"></div>
-<section class="form"><!---formulario-->
-<a id="Contact"><h2>Contact us for information about the system</h2></a>
-  <form action="/action_page.php">
-    <div>
-		<label for="fname">First name:</label>
-      	<input type="text" name="fname" placeholder="Juan">
-      	<label for="lname">Last name:</label>
-      	<input type="text" name="lname" placeholder="Perez">
-	</div>
-    <div>
-		<label for="email">Enter your email:</label>
-      	<input type="email" name="email" placeholder="example@email.com">
-	</div>
-    <div>
-		Contact Area:
-      	<select name="Area">
-      	<option>Select
-      	<option>RRHH
-      	<option>Systems
-      	<option>Commercialization
-      	</select>
-	</div>
-    <div>
-		<textarea name="texto"
-		rows="10"
-	    cols="50">Text Area
-      	</textarea>
-	</div>
-    	<input class="button" type="submit" value="Submit">
-    	<input class="button1" type="reset" value="Reset">
-  </form>
-</section>
-	<div class="linea"></div>
-<section class="who-we-are"><!---historia-->
-	<h2>Who we are</h2>
-	<p>
-		RR time tracker is a web platform that help to manage time at work. 
-		What type of application do you have in mind?
-		We’re providing you with the core UI kit needed to kickstart your design and development while also allowing
-		you to add new functionalities to the existing capabilities. 
-	</p>
-</section>
-	<div class="linea"></div>
-<section><!---seccion final-->
-	<div class="final">
-		<h2>Products</h2>
-			<ol>
-  				<li>Funcionalities.</li>
-  				<li>Downloads.</li>
-  				<li>Integrations.</li>
-  				<li>Additionals features.</li>
-  			</ol>
-	</div>
-	<div class="final">
-		<h2>Company</h2>
-  			<ol>
-  				<li>About us.</li>
-  				<li>Clients.</li>
-  				<li>Resources.</li>
-  				<li>Blog.</li>
-  			</ol>
-	</div>
-	<div class="final">
-		<h2>Support</h2>
-  			<ul>
-  				<li>Help.</li>
-  				<li>Tutorials.</li>
-  				<li>API.</li>
-  				<li>Contact</li>
-  			</ul> 
-	</div> 
-</section>
-	<div class="linea"></div>
-<!---footer-->
-<footer>
-	<div>
-		<a href="https://www.facebook.com/radiumrocket">
-			<img src="Images/fcb.png" alt="Facebook" class="icon">
-		</a>
-		<a href="https://www.instagram.com/radium.rocket/">
-  			<img src="Images/insta.png" alt="Instagram" class="icon">
-		</a>
-  		<a href="https://twitter.com/radiumrocket">
-		  <img src="Images/twt.jpg" alt="Twitter" class="icon">
-		</a>
-		<a href="https://www.linkedin.com/company/radium-rocket/">
-  			<img src="Images/in.png" alt="Linkedin" class="icon">
-		</a>
-	</div>
-  <small>Copyright © 2022 Trackgenix S.A. All rigths reserved.</small>
-</footer>
-</body>
+	<small>Copyright © 2022 Trackgenix S.A. All rigths reserved.</small>
+	</footer>
+	</body>
 </html>

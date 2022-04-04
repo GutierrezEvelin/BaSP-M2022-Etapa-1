@@ -5,11 +5,15 @@ body{
 h1 {
     font-size: 60px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-left: 25px;
+    margin-left: 280px;
 }
 h2{
     font-size: 30px;
-    padding-left: 25px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.pcs{
+    padding-left: 0px;
 }
 h3{
     font-size: 24px;
@@ -25,7 +29,7 @@ aside {
     float: left;
     top: 150px;
     width: 254px;
-    height: 3600px;
+    height: 3000px;
     background: #373867;
     text-align: left;
 }
@@ -57,7 +61,8 @@ aside a{
     font-size: 16px;
     color: #B4AFAF;
     text-transform: uppercase;
-    margin-left: 25px;
+    margin-left: 280px;
+    margin-top: 20px;
 }
 
 .img-computer{
@@ -75,6 +80,9 @@ p.txt-home{
     display: inline-block;
     margin-left: 25px;
 }
+.title{
+    margin-left: 270px;
+}
 .funcionalities {
     display: inline-block;
     width: 30%;
@@ -89,6 +97,9 @@ p.txt-home{
 }
 .funcionalities h3{
     color: #46A37C;
+}
+.funcionalities p{
+    padding-top: 20px;
 }
 .img-why{
     margin: 25px;
@@ -109,8 +120,30 @@ p.txt-home{
     margin-right: 130px;
     text-align: center
 }   
-.form{
-    margin: 25px;
+form{
+    margin-left: 280px;
+}
+input{
+    width: 50%;
+    border: #373867 solid;
+    border-radius: 10px;
+    border-width: thin;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.mail{
+    width: 47%;
+}
+.select-area{
+    border: #373867 solid;
+    border-radius: 10px;
+    border-width: thin;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+textarea{
+    border: #373867 solid;
+    border-radius: 10px;
+    border-width: thin;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .button{
     align-items: center;
@@ -122,6 +155,7 @@ p.txt-home{
     background: #AACE9B;
     border-radius: 5px;
     text-transform: uppercase;
+
 }
 .button1{
     align-items: center;
@@ -147,6 +181,7 @@ p.txt-home{
     display: inline-block;
     margin: 25px;
     width: 20%;
+    margin-left: 80px;
 }
 footer{
     align-items: center;
