@@ -14,7 +14,7 @@ h2{
     padding-top: 50px;
 }
 .pcs{
-    padding-left: 0px;
+    padding: 25px 0px 10px 0px;
 }
 h3{
     font-size: 24px;
@@ -45,6 +45,7 @@ aside a{
     font-size: 30px;
     line-height: 35px;
     color: white;
+    text-decoration: none
 }
 .icon {
     width: 20px;
@@ -119,10 +120,10 @@ p.txt-home{
 }
 .wcu{
     margin-left: 170px;
-    margin-top: 100px;
+    margin-top: 25px;
     display: inline-block;
-    width: 290px;
-    height: 290px;
+    width: 25%;
+    height: 230px;
     margin-right: 130px;
     text-align: center
 }   
@@ -184,14 +185,14 @@ textarea{
 }
 .who-we-are{
     background-color: #F2F2F2;
-    width: 900px;
+    width: 60%;
     margin: 25px;
     padding: 20px;
     border-radius: 10px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     text-align: center;
     display: inline-block;
-    margin-left: 270px;
+    margin-left: 25%;
 }
 .who-we-are h2{
     padding: 10px;
@@ -201,12 +202,13 @@ textarea{
 }
 .final{
     display: inline-block;
-    margin: 25px;
-    width: 20%;
-    margin-left: 80px;
+    width: 30%;
+    margin-left: 25px;
+    padding: 0px 0px 25px 0px;
 }
 footer{
     align-items: center;
     text-align: center;
     margin-top: 20px;
+    padding-left: 15%;
 }
