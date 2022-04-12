@@ -73,3 +73,38 @@ main {
     padding: 10px;
     text-align: center;
 }
+form  {
+    flex-wrap: wrap;
+}
+textarea {
+    padding: 10px;
+    margin: 10px 0px;
+    width: 90%;
+    border-radius: 10px;
+    text-align: left;
+    opacity: 70%;
+}
+.name-container {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.button {
+    background-color: #AACE9B;
+    width: 140px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.button1{
+    width: 140px;
+}
+.buttom-container{
+    width: 90%;
+    align-items: flex-start;
+}
+.block-forms {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    min-width: 300PX;
+}

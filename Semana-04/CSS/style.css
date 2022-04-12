@@ -20,7 +20,7 @@ h3 {
     font-size: 20px;
     padding-bottom: 15px;
   }
-.icon{
+.icon-social{
     width: 20px;
     height: 20px;
 }
@@ -50,7 +50,7 @@ a:link, a:visited, a:active {
     footer {
       margin-left: 20%;
     }
-    .logo-container {
+    .rr-logo {
       display: flex;
     }
     .burger-container {
