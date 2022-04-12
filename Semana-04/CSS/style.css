@@ -3,16 +3,73 @@ body{
     font-family: "Roboto",Arial, Helvetica, sans-serif;
 }
 h1 {
-    font-size: 60px;
+    width: 100%;
+    min-width: 250px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-h2{
-    font-size: 30px;
-}
-h3{
+h2 {
+    font-weight: 700;
     font-size: 24px;
+    line-height: 36px;
 }
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
 .icon{
     width: 20px;
     height: 20px;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 1024px){
+    .rr-logo {
+        display: none;
+    }
+    aside {
+        display: none;
+      }
+}
+@media (min-width:1024px) {
+    main {
+      margin-left: 20%;
+    }
+    footer {
+      margin-left: 20%;
+    }
+    .logo-container {
+      display: flex;
+    }
+    .burger-container {
+      display: none;
+    }
+}
+@media (min-width:768px) {
+    .p-home {
+      text-align: left;
+    }
+}
+@media (max-width:768px) {
+    h1 {
+      text-align: center;
+    }
+    .subtitle {
+      text-align: center;
+    }
+    .p-home {
+      text-align: center;
+    }
 }

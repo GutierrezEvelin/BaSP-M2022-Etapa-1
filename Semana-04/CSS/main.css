@@ -1,0 +1,22 @@
+main {
+    padding: 0px 30px;
+}
+.txt-home {
+    display: flex;
+    flex-direction: column;
+    max-width: 64%;
+    min-width: 300px;
+    justify-content: center;
+    margin-bottom: 10px;
+} 
+.subtitle {
+    width: 100%;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #B4AFAF;
+    margin-bottom: 10px;
+}
+.img-computer {
+    max-width: 250px;
+}
