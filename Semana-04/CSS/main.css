@@ -4,7 +4,7 @@ main {
 .txt-home {
     display: flex;
     flex-direction: column;
-    max-width: 64%;
+    max-width: 60%;
     min-width: 300px;
     justify-content: center;
     margin-bottom: 10px;
@@ -18,11 +18,18 @@ main {
     margin-bottom: 10px;
 }
 .img-computer {
-    max-width: 250px;
+    max-width: 200px;
 }
 #home {
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
 }
 .funcionalities {
     margin: 10px;
@@ -107,4 +114,28 @@ textarea {
     display: flex;
     flex-direction: column;
     min-width: 300PX;
+}
+.who-we-are p {
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+}
+.who-we-are {
+    width: 70%;;
+    padding: 20px;
+    margin: 20px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    filter: drop-shadow(0px 10px 10px rgba(55, 56, 103, 0.5));
+    vertical-align: middle;
+    text-align: center;
+}
+.list-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.final {
+    max-width: 33%;
+    min-width: 200px;
+    color: black;
+    padding: 10px;
 }

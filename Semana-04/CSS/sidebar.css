@@ -1,1 +1,21 @@
 
+aside a {
+    color: white;
+    font-weight: bold;
+}
+aside a:hover {
+    color: #46A37C;
+}
+.menu img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+aside {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background: #373867;
+}
+.menu{
+    padding: 10px;
+}
