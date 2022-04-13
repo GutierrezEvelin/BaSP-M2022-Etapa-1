@@ -1,6 +1,17 @@
 main {
     padding: 0px 30px;
 }
+form  {
+    flex-wrap: wrap;
+}
+textarea {
+    padding: 10px;
+    margin: 10px 0px;
+    width: 98%;
+    border-radius: 10px;
+    text-align: left;
+    opacity: 70%;
+}
 .txt-home {
     display: flex;
     flex-direction: column;
@@ -19,10 +30,6 @@ main {
 }
 .img-computer {
     max-width: 200px;
-}
-#home {
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 .container {
     display: flex;
@@ -80,17 +87,7 @@ main {
     padding: 10px;
     text-align: center;
 }
-form  {
-    flex-wrap: wrap;
-}
-textarea {
-    padding: 10px;
-    margin: 10px 0px;
-    width: 90%;
-    border-radius: 10px;
-    text-align: left;
-    opacity: 70%;
-}
+
 .name-container {
     display: flex;
     width: 90%;
@@ -110,7 +107,7 @@ textarea {
     align-items: flex-start;
 }
 .block-forms {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     min-width: 300PX;
@@ -138,4 +135,8 @@ textarea {
     min-width: 200px;
     color: black;
     padding: 10px;
+}
+#home {
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
