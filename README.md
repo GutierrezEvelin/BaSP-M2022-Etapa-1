@@ -5,8 +5,6 @@ Student Evelin Gutierrez.
 Create the HTML code of Landing made in Week 1.
 ## Week 3
 Add CSS to the code HTML of Week 2.
-
 ## Week 4
-
-
+Responsive web design whit flex box
 https://gutierrezevelin.github.io/BaSP-M2022-Etapa-1/Semana-04
