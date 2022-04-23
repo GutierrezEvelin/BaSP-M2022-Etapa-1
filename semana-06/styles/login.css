@@ -1,0 +1,16 @@
+form  {
+    flex-wrap: wrap;
+}
+.button-s {
+    background-color: #AACE9B;
+    width: 140px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.button-r{
+    width: 140px;
+}
+.buttom-container{
+    width: 90%;
+    align-items: flex-start;
+}

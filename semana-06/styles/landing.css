@@ -1,0 +1,142 @@
+main {
+    padding: 0px 30px;
+}
+form  {
+    flex-wrap: wrap;
+}
+textarea {
+    padding: 10px;
+    margin: 10px 0px;
+    width: 98%;
+    border-radius: 10px;
+    text-align: left;
+    opacity: 70%;
+}
+.txt-home {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    min-width: 300px;
+    justify-content: center;
+    margin-bottom: 10px;
+} 
+.subtitle {
+    width: 100%;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #B4AFAF;
+    margin-bottom: 10px;
+}
+.img-computer {
+    max-width: 200px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+}
+.funcionalities {
+    margin: 10px;
+    padding: 10px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+    max-width: 44%;
+    min-width: 300px;
+}
+.funcionalities-container {
+    flex-wrap: wrap;
+}
+.funcionalities h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #46A37C;
+    padding-bottom: 10px;
+}
+.icon img {
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+  }
+.icon{
+    background-color: #cccccc;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.527));
+}
+.wcu-container{
+    flex-wrap: wrap;
+}
+.wcu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 46%;
+    min-width: 300px;
+    padding: 10px;
+}
+.wcu-txt {
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+.name-container {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.button {
+    background-color: #AACE9B;
+    width: 140px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.button1{
+    width: 140px;
+}
+.buttom-container{
+    width: 90%;
+    align-items: flex-start;
+}
+.block-forms {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 300PX;
+}
+.who-we-are p {
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+}
+.who-we-are {
+    width: 70%;;
+    padding: 20px;
+    margin: 20px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    filter: drop-shadow(0px 10px 10px rgba(55, 56, 103, 0.5));
+    vertical-align: middle;
+    text-align: center;
+}
+.list-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.final {
+    max-width: 33%;
+    min-width: 200px;
+    color: black;
+    padding: 10px;
+}
+#home {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
